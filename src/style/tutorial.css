@@ -1,0 +1,40 @@
+.tutorial {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background: #0082AD;
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+}
+
+.tutorial-image {
+    height: 100%;
+    width: 100%;
+}
+
+.tutorial-next {
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #00AFD7;
+}
+
+.tutorial-prev {
+    position: absolute;
+    bottom: 8px;
+    left: 15px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #00AFD7;
+}
+
+.none {
+    display: none;
+}

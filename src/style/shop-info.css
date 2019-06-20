@@ -1,0 +1,86 @@
+/* Slide in for all, and for shop info */
+
+.si-shop-info {
+  bottom: 0px;
+  transform: translate(-100%, 100%);
+  border-top-right-radius: 90%;
+  background: #fff !important;
+}
+
+.si-shop-info .si-content {
+  color: #0082ad;
+  padding-bottom: 10px;
+}
+
+.shop-img {
+  width: 100%;
+  height: auto;
+}
+
+.si-button.si-button-shop-info-close {
+  margin: 15px 5% 5px 5%;
+  color: #0082ad;
+}
+
+.shop-info-header {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.shop-info-desc {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+.website-button {
+  /* margin-top: 20px; */
+  padding: 12px;
+  margin: 12px auto;
+  background: #56ccf2;
+  color: #fff;
+  text-transform: lowercase;
+  width: 100%;
+}
+
+/* Menu */
+
+.si-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  right: -50%;
+  letter-spacing: 3px;
+  bottom: 0px;
+  transform: translate(-100%, 100%);
+  /* justify-content: flex-start;
+    align-items: flex-end; */
+  text-align: left;
+  border-top-right-radius: 90%;
+}
+
+.menu-header {
+  color: #fff;
+  font-size: 26px;
+  text-transform: lowercase;
+  /* margin-top: 0px; */
+  margin: 0px 0px 15px 0px;
+}
+
+@media (max-height: 650px) {
+  .shop-info-desc {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+
+  .shop-info-desc p {
+    margin: 2px 0;
+  }
+
+  .website-button {
+    margin: 4px auto;
+  }
+}

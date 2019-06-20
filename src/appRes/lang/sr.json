@@ -1,0 +1,103 @@
+{
+  "circle": {
+    "start": "start",
+    "end": "einde",
+    "notificationStatus": "Super!"
+  },
+  "footer": {
+    "shop": "winkel",
+    "settings": "settings"
+  },
+  "shop": {
+    "header": "Hello Wordl",
+    "text": "Hello World is de stappenteller onder de waterflessen en de ideale combinatie met deze app. Ze maken je bewust hoeveel water je drinkt en motiveren je om genoeg water te drinken. Gezond drinken? Maak er een sport van iedere dag voldoende worlste verzamelen. </p>",
+    "button": "Bestel"
+  },
+  "settings": {
+    "header": "instellingen",
+    "startTime": "start tijd",
+    "endTime": "eind tijd",
+    "reminders": "herinneringen",
+    "alarmsFreq": "minuten tussen herinneringen",
+    "alarmsSound": "geluid",
+    "alarmsVibration": "trilling",
+    "cancelButton": "Afsluiten",
+    "saveButton": "Bewaren",
+    "picker": {
+      "title": "Kies een tijd",
+      "cancel": "Annuleer",
+      "confirm": "OK"
+    }
+  },
+  "menu": {
+    "header": "menu",
+    "home": "home",
+    "settings": "instellingen",
+    "shareScreen": "deel scherm",
+    "shareApp": "deel",
+    "changeLanguage": "Engels",
+    "info": "informatie",
+    "manual": "tour"
+  },
+  "info": {
+    "header": "Gezond drinken",
+    "text": [
+      "Vergeet je om water te drinken? Gebruik dan deze app. Je krijgt regelmatig berichtjes om een paar slokken water te nemen. Hiermee voorkom je dat je dorst krijgt. ",
+      "Bij dorst neemt ook je temperatuur toe. Je wilt dan graag afkoelen en de verleiding is groot om een koude frisdrank te nemen. Maar deze zit vol suiker en je bent aan het snoepen terwijl je je dorst wilt lessen. Frisdrank is een voorname veroorzaker van tandbederf (cariës), overgewicht, diabetes II en een aantal hart- en vaatziekten. ",
+      "Met grote regelmaat een paar slokken water is de beste manier om gezond te drinken."
+    ]
+  },
+  "notification": {
+    "start": "Zullen we Hello verzamelen? Vul dan je fles, zet de dop op 1 gevulde stip en neem een paar slokken.",
+    "end": "Goed gedaan! Je fles zou nu bijna leeg moeten zijn met op de dop 4 gevulde Text.",
+    "reminders": [
+      "Het is tijd om wat water te drinken",
+      "Tijd om water te drinken",
+      "Frisdrank en vruchtensap zijn eigenlijk vloeibaar snoep",
+      "Tijd om water te drinken",
+      "Fles leeg? Even vullen en een stip erbij!",
+      "Een smaakje: doe een schijfje komkommer in je water",
+      "Neem je een 2-3 slokken water?",
+      "Tijd om water te drinken",
+      "Gezond drinken? Drink voldoende water.",
+      "Mensen die bewust kiezen voor water, leven gezonder",
+      "Tijd om water te drinken",
+      "Rondje van de zaak? Neem gewoon een paar slokken water",
+      "Hmmm, het is weer tijd voor een paar slokken water",
+      "Het is weer tijd: neem je een paar slokken water?",
+      "Tijd om water te drinken",
+      "Voldoende drinken betekent ook vitaler en een betere concentratie",
+      "Gezond gewicht? Voldoende bewegen is belangrijk. Suikervrij drinken absolute noodzaak",
+      "Tijd om water te drinken",
+      "Het is tijd voor een paar slokken water",
+      "Vergeet je niet wat water te drinken?",
+      "Tijd om water te drinken",
+      "Tijd om water te drinken",
+      "Het is weer tijd om een paar slokken water te drinken.",
+      "Deel je status met je vrienden!",
+      "Een blaadje munt in je water geeft een frisse smaak",
+      "Wacht niet tot je dorst hebt, neem nu een paar slokken water",
+      "Neem je weer een paar slokken?",
+      "Tijd om water te drinken",
+      "Kun je al zeggen: ik drink suikervrij?",
+      "Tijd om water te drinken",
+      "Geef je een collega ook een glas water?",
+      "Gezondheid: neem een paar slokken water!",
+      "Drink kraanwater. Geen frisdrank of vruchtensap",
+      "Water helpt je het om hoofd koel te houden",
+      "Tijd om water te drinken",
+      "Tijd om water te drinken",
+      "Santé: drink wat water",
+      "Skøl: neem nog een paar slokken",
+      "Tijd om water te drinken",
+      "Tijd om water te drinken",
+      "Proost: tijd voor een paar slokken water!",
+      "Neem je weer een paar slokken en ga je bijtijds naar de toilet?",
+      "Water bevat geen suiker, is calorie arm en komt zo uit de kraan!",
+      "Drink gezond, drink water",
+      "Hydration time!",
+      "Tijd om water te drinken",
+      "Tijd om water te drinken"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: #2b6cb0;
+  color: #dedede;
+  height: 70px;
+  min-width: 70px;
+  width: auto;
+  margin: 20px 25px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.footer button svg {
+  padding-bottom: 5px;
+  font-size: 2em;
+}

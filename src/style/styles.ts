@@ -1,0 +1,11 @@
+import './circle.css';
+import './footer.css';
+import './header.css';
+import './picker.min.css';
+import './product-info.css';
+import './shop-info.css';
+import './splashscreen.css';
+import './settings.css';
+import './style.css';
+import './tutorial.css';
+import './slideins.css';

@@ -1,0 +1,277 @@
+.water-drinker {
+  flex-grow: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.biggest-circle {
+  height: 90vmin;
+  width: 90vmin;
+  /* background: blue; */
+  box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.05),
+    -2px -2px 15px 5px rgba(0, 0, 0, 0.02),
+    inset 2px 2px 15px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 40px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  background: #fff;
+  /* border: 1px solid #3058A8; */
+  margin: 0 auto;
+  /* position: absolute; */
+  /* left: 0px; */
+  /* right: 0px; */
+  /* top: 0px; */
+  position: relative;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 15px;
+}
+
+.info-data-circle {
+  border-radius: 50%;
+  /* justify-content: space-around; */
+  /* padding: 3vmin; */
+  /* align-items: flex-start; */
+  /* padding-top: 40px; */
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #4c51bf;
+  display: flex;
+  flex-direction: column;
+  padding: 15% 15% 5% 15%;
+}
+
+.info-circle {
+  position: absolute;
+  height: 56vmin;
+  width: 56vmin;
+  top: 17vmin;
+  right: 17vmin;
+  bottom: 17vmin;
+  left: 17vmin;
+  /* background: #0082AD; */
+  /* border-radius: 50%; */
+  /* padding: 3vmin; */
+}
+
+.circle-arrow-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+}
+
+.circle-arrow {
+  fill: #fff;
+}
+
+.circle-arrow {
+  height: 100%;
+  width: auto;
+  transform: rotate(0turn);
+  transition: transform 200ms linear;
+}
+
+.small-circles {
+  color: green;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* top: -50%; */
+  /* left: 50%; */
+}
+
+.small-circles-center {
+  position: relative;
+  max-height: 0px;
+  max-width: 0px;
+}
+
+.small {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #4c51bf;
+  border-radius: 50%;
+  top: -7px;
+  left: -7px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: inline-block; */
+}
+
+.small.done {
+  background: #4c51bf;
+}
+
+.small.quarter {
+  height: 24px;
+  width: 24px;
+  /* top: 4px; */
+  left: -12px;
+  /* left: -3px; */
+  border: 3px solid #4c51bf;
+  top: -12px;
+}
+
+.start-end-times {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12%;
+  color: #f7fafc;
+  height: 40%;
+
+  /* padding-top: 25px; */
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.drink-time {
+  /* color: #66B4CE; */
+  font-size: 22px;
+  font-weight: 900;
+  padding: 0 10px;
+}
+
+.drink-time-desc {
+  font-size: 14px;
+  font-weight: 900;
+  /* color: #fff; */
+}
+
+.current-time {
+  /* position: absolute; */
+  /* bottom: 40px; */
+  /* width: 100%; */
+  /* text-align: center; */
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  /* font-weight: 00; */
+}
+
+.drink-button {
+  /* position: absolute; */
+  bottom: -100px;
+  text-align: center;
+  /* border-radius: 100%; */
+  background: transparent;
+  color: #38a169;
+  border: none;
+  font-size: 40px;
+  margin: 10px 40px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+/* .drink-button-plus {
+  right: -5px;
+}
+
+.drink-button-minus {
+  left: -5px;
+} */
+.drink-water-buttons {
+  /* display: inline-flex; */
+  display: flex;
+  position: relative;
+  bottom: -80px;
+  /* margin: 0 auto; */
+  /* left: 0px; */
+  /* right: 0px; */
+  justify-content: center;
+  align-items: center;
+}
+.drink-water-wrapper {
+  background: #fff;
+  box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.notification-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 15px 10px; */
+  font-size: 32px;
+  color: #fff;
+  flex-grow: 2;
+}
+
+.notification-status.in-progress {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+  /* padding: 15px 10px; */
+  font-size: 20px;
+  color: #f7fafc;
+  flex-grow: 2;
+}
+
+.notification-status-desc {
+  padding: 5px;
+  font-size: 12px;
+}
+
+.notification-status-alarms {
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.notification-separator {
+  font-size: 18px;
+}
+
+.white {
+  color: #fff;
+}
+
+@media (min-height: 950px) {
+  .water-drinker {
+    transform: scale(0.7) translateY(-100px);
+  }
+
+  .drink-button {
+    transform: scale(1.5);
+  }
+
+  .current-time {
+    font-size: 80px;
+  }
+
+  .notification-status {
+    transform: scale(2) translateY(-20%);
+  }
+
+  .drink-time {
+    transform: scale(1.7) translateY(10%);
+  }
+}

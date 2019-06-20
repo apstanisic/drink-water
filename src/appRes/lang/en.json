@@ -1,0 +1,101 @@
+{
+  "circle": {
+    "start": "start",
+    "end": "end",
+    "notificationStatus": "Well done!"
+  },
+  "footer": {
+    "menu": "menu",
+    "settings": "settings"
+  },
+  "shop": {
+    "header": "Collecting dots",
+    "text": "This is the ideal waterbottle that works perfectly with this app. They both make you aware how much water you drink. And they motivate you to drink enough water by collecting dots during the day. Get your bottle at our website and drink healthy. Cheers!",
+    "button": "order"
+  },
+  "settings": {
+    "header": "settings",
+    "startTime": "start time",
+    "endTime": "end time",
+    "reminders": "reminders",
+    "alarmsFreq": "alarm frequency",
+    "alarmsSound": "alarm sound",
+    "alarmsVibration": "alarm vibration",
+    "cancelButton": "CANCEL",
+    "saveButton": "SAVE",
+    "picker": {
+      "title": "Pick a time",
+      "cancel": "Cancel",
+      "confirm": "OK"
+    }
+  },
+  "menu": {
+    "header": "menu",
+    "home": "home",
+    "settings": "settings",
+    "shareScreen": "share screen",
+    "changeLanguage": "srpski",
+    "info": "information",
+    "manual": "tutorial"
+  },
+  "info": {
+    "header": "Remember to drink water",
+    "text": [
+      "Drinking water is important. It's very important for normal functioning of organism",
+      "When dehydrated, the skin can become more vulnerable to skin disorders and wrinkling. ",
+      "Humans are 60 percent water, and our blood is 90 percent water.",
+      "This app will help you"
+    ]
+  },
+  "notification": {
+    "start": "Let’s collect dots today! Fill your bottle, set the dial at 1 filled dot and take some sips.",
+    "end": "Well done! When correct your bottle is nearly empty and the lid shows 4 filled dots",
+    "reminders": [
+      "Knock-knock: sipping water regularly water throughout the day is the best way to stay hydrated.",
+      "Hydration time!",
+      "It’s time to take some sips of water",
+      "Do not forget to sip some water",
+      "Why don’t you sip some water?",
+      "Take a sip",
+      "Sip water regularly throughout the day",
+      "Santé: take some water",
+      "Skøl: take some sips of water",
+      "At your health: sip some water!",
+      "Cheers: take some sips again",
+      "Take some sips and make use of the bathroom in time",
+      "How about some refreshing sips of water?",
+      "It’s sipping time again!",
+      "Have you not forgotten to take some sips of water?",
+      "Just drink some water and skip soft drinks and juices!",
+      "Time to drink some water",
+      "Why don’t you drink some water?",
+      "Remember to drink some water",
+      "It is easier to sip water when you have the Hydranome® water bottle with you.",
+      "Mmmm, take some refreshing sips of water.",
+      "Time for a water break!",
+      "Hi, time to sip some water",
+      "When it is warm: add some ice cubes to your water",
+      "Time! Drink some water",
+      "Sip some water!",
+      "Water helps to keep you cool",
+      "Sip some water and adopt a healthy hydration habit.",
+      "Water is life. Drink it.",
+      "Stay well hydrated and drink some water.",
+      "Dehydration results in reduced concentration and loss of humor. Sip some water?",
+      "Your body needs water",
+      "Time to take your water",
+      "Stay hydrated: sip some water",
+      "Water does not contain any sugar, is calorie free and easy available at the nearest tap",
+      "Skip sugared beverages and sip some water",
+      "Keep sipping: people with the habit of drinking water have a healthier lifestyle.",
+      "How about sipping some tea?",
+      "Add some mint to your water and enjoy!",
+      "Sip water and skip the ‘liquid candy’ like soft drinks and juices.",
+      "When you wake up: quench your morning thirst with plain water.",
+      "Take 2 or 3 sips of water. Tap water.",
+      "This message is to remind you to sip some water.",
+      "Drink some water",
+      "Sip your water!"
+    ]
+  }
+}

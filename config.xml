@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Drink Water</name>
+    <description>
+        Simple app to reminds you to drink water
+    </description>
+    <author email="apstanisic@gmail.com" href="https://aleksandarstanisic.com">
+        Aleksandar Stanisic
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+     <preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <!-- For social sharing -->
+    <config-file parent="LSApplicationQueriesSchemes" target="*-Info.plist">
+        <array>
+            <string>fb</string>
+            <string>fbapi</string>
+            <string>fbauth2</string>
+            <string>fbshareextension</string>
+            <string>fb-messenger-api</string>
+            <string>twitter</string>
+            <string>viber</string>
+            <string>whatsapp</string>
+            <string>wechat</string>
+            <string>line</string>
+            <string>instagram</string>
+            <string>kakaotalk</string>
+            <string>mqq</string>
+            <string>vk</string>
+            <string>comgooglemaps</string>
+            <string>googlephotos</string>
+            <string>ha</string>
+        </array>
+    </config-file>
+    <!-- For storage access -->
+    <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
+        <string>This app requires access to the photo library for screenshoot.</string>
+    </config-file>
+</widget>

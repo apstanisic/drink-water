@@ -1,0 +1,259 @@
+.si-settings {
+    left: -50%;
+    bottom: 0px;
+    transform: translate(150%, 100%);
+    /* transform: translateY(100%); */
+    border-top-left-radius: 85%;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    background: #0082AD;
+}
+
+.si-content-settings {
+    padding-bottom: 15px;
+}
+
+.alarm-freq {
+    width: 100%;
+}
+
+.alarm-freq-label {
+    text-align: left;
+    margin-bottom: 8px;
+    margin-right: auto; 
+}
+
+.alarm-freq-buttons {
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.alarm-freq-buttons button {
+    /* flex-grow: 1; */
+    width: 25%;
+    border: none;
+    color: #fff;
+    background: #40A1C1;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0;
+}
+
+.timepicker-wrapper {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.timepicker-wrapper .fa-clock {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    height: 100%;
+}
+
+.timepicker {
+    background: transparent;
+    color: #fff;
+    cursor: none;
+    text-align: right;
+    font-size: 38px;
+    border: none;
+    padding-right: 30px;
+    font-weight: 900;
+}
+
+.button.button-save {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    font-weight: 900;
+    background: #00AFD7;
+    color: #fff;
+}
+
+.settings.to-grow {
+    background: #0082AD;
+}
+
+.alarm-freq-buttons button.selected {
+    background: #fff;
+    color: #0082AD;
+}
+
+.alarm-freq-buttons .border-right {
+    border-right: 2px solid #fff;
+}
+
+
+.settings-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.settings-row .button {
+    width: 45%;
+    text-align: center;
+    padding: 15px 0px;
+    /* padding-left: 0px;
+    padding-right: 0px; */
+}
+
+.settings-header {
+    /* margin-bottom: 0px;
+    margin-top: 0px; */
+    margin: 0px 0 0px auto; 
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: normal;
+}
+/* .si-settings .si-grow {
+    padding-bottom: 15px;
+    font-size: 20px;
+} */
+
+.settings-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.settings-row h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.settings-row.pb-2 .button {
+    width: 45%;
+    text-align: center;
+    padding: 15px 0px;
+    /* padding-left: 0px;
+    padding-right: 0px; */
+}
+
+.si-settings hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    margin-bottom: 0px;
+}
+
+.disabled-color {
+    color: rgba(255,255,255, 0.6) !important;
+}
+
+.alarm-freq-button.selected {
+    background: #fff;
+    color: #0082AD;
+}
+
+/* For time picker to be on top */
+.picker-fixed {
+    z-index: 15 !important;
+}
+
+.settings-to-disable {
+    position: relative;
+}
+
+.settings-disabled {
+    position: absolute;
+    left: -30%;
+    right: -30%;
+    top: 0px;
+    bottom: 0px;
+    background: white;
+    z-index: 2;
+    opacity: 0.4;
+}
+
+
+
+
+/* Toggle */
+
+.tgl {
+  display: none;
+}
+.tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+  background: none;
+}
+.tgl + .tgl-btn {
+  outline: 0;
+  display: block;
+  width: 4em;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+.tgl + .tgl-btn:after {
+  left: 0;
+}
+.tgl + .tgl-btn:before {
+  display: none;
+}
+.tgl:checked + .tgl-btn:after {
+  left: 50%;
+}
+
+.tgl-ios + .tgl-btn {
+  background: #fbfbfb;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all .4s ease;
+  /* border: 1px solid #e8eae9; */
+}
+.tgl-ios + .tgl-btn:after {
+  border-radius: 2em;
+  background: #fbfbfb;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+.tgl-ios + .tgl-btn:hover:after {
+  will-change: padding;
+}
+.tgl-ios + .tgl-btn:active {
+  box-shadow: inset 0 0 0 2em #e8eae9;
+}
+.tgl-ios + .tgl-btn:active:after {
+  padding-right: .8em;
+}
+.tgl-ios:checked + .tgl-btn {
+  background: #4CD964;
+}
+.tgl-ios:checked + .tgl-btn:active {
+  box-shadow: none;
+}
+.tgl-ios:checked + .tgl-btn:active:after {
+  margin-left: -.8em;
+}
+
+/* end toggle */
